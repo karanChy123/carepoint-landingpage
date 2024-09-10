@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define @font-face rule */
+@font-face {
+  font-family: "Dm sans";
+  src: url("/fonts/DMSans-Regular-BF64376d323f095.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Bold DMSans font */
+@font-face {
+  font-family: "Dm sans";
+  src: url("/fonts/DMSans-Bold-BF64376d32191f2.ttf") format("truetype");
+  font-weight: bold; /* Specify font weight as bold */
+  font-style: normal;
+}
+/* Bold DMSans font */
+@font-face {
+  font-family: "Dm sans";
+  src: url("/fonts/DMSans-Medium-BF64376d329a539.ttf") format("truetype");
+  font-weight: 500; /* Specify font weight as bold */
+  font-style: normal;
+}
+body {
+  font-family: "Inter Tight", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.margin {
+  margin: 110px 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.flex, .fifth_section .container .wrapper .left .btns_group .tour_video_btn, .fifth_section .container .wrapper .left .btns_group, .fifth_section .container .wrapper, .fouth_section .heading, .third_section .container .wrapper .right .list-items div, .third_section .container .wrapper, .third_section .container .heading, .second_section .container .left .list-items div, .second_section .container, .hero-section .container .hero-text .btns_group .tour_video_btn, .hero-section .container .hero-text .btns_group, .hero-section .container, .topbar .right-section .login_btn, .topbar .right-section .main-menu, .topbar .right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar {
+  padding: 24px 0;
+}
+.topbar .logo img {
+  width: 207px;
+  height: 64px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.topbar .right-section {
+  gap: 57px;
+}
+.topbar .right-section .main-menu {
+  gap: 57px;
+}
+.topbar .right-section .main-menu li a {
+  font-family: "Dm sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+  text-align: left;
+  letter-spacing: 0.3px;
+}
+.topbar .right-section .login_btn {
+  justify-content: center;
+  height: 44px;
+  width: 109px;
+  cursor: pointer;
+  gap: 5px;
+  border: none;
+  background-color: #86973b;
+  border-radius: 24px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.44px;
+  text-align: right;
+}
+.topbar .right-section .login_btn a {
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+
+.hero-section {
+  min-height: 705px;
+  background-image: url("/images/Mask group.jpg");
+  background-size: cover;
+}
+.hero-section .container {
+  min-height: 705px;
+  justify-content: left;
+}
+.hero-section .container .hero-text {
+  max-width: 541px;
+}
+.hero-section .container .hero-text h1 {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 62.92px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 36px;
+}
+.hero-section .container .hero-text p {
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 42px;
+}
+.hero-section .container .hero-text .btns_group {
+  justify-content: left;
+  gap: 10px;
+}
+.hero-section .container .hero-text .btns_group .tour_video_btn {
+  width: 247px;
+  height: 56px;
+  background: #86973b;
+  border-radius: 30px;
+  border: none;
+  padding: 0 30px;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  color: #fff;
+}
+.hero-section .container .hero-text .btns_group .subscription_btn {
+  width: 265px;
+  height: 56px;
+  background-color: #ef8322;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.second_section .container {
+  gap: 55px;
+}
+.second_section .container .left h2 {
+  font-family: Inter Tight;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.56px;
+  text-align: left;
+  color: #15354d;
+  margin-bottom: 40px;
+}
+.second_section .container .left .list-items div {
+  gap: 18px;
+  margin-bottom: 43px;
+}
+.second_section .container .left .list-items div p {
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #445766;
+}
+.second_section .container .right img {
+  max-width: 649px;
+  min-height: 664px;
+}
+
+.third_section .container .heading {
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 53px;
+}
+.third_section .container h2 {
+  font-family: Inter Tight;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.56px;
+  text-align: center;
+  color: #15354d;
+  max-width: 902px;
+}
+.third_section .container .wrapper {
+  gap: 73px;
+}
+.third_section .container .wrapper .left {
+  flex-basis: 52%;
+}
+.third_section .container .wrapper .left img {
+  width: 100%;
+}
+.third_section .container .wrapper .right {
+  flex-basis: 48%;
+}
+.third_section .container .wrapper .right .list-items div {
+  gap: 11px;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+.third_section .container .wrapper .right .list-items div p {
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #445766;
+}
+
+.fouth_section .heading {
+  justify-content: center;
+  background-color: #11578a;
+  height: 128px;
+  width: 100%;
+  border-radius: 20px;
+}
+.fouth_section .heading h2 {
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.04px;
+  text-align: center;
+  color: #fff;
+  max-width: 570px;
+}
+
+.fifth_section .container .wrapper {
+  gap: 41px;
+}
+.fifth_section .container .wrapper .left {
+  flex-basis: 50%;
+}
+.fifth_section .container .wrapper .left h2 {
+  font-family: Inter Tight;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.56px;
+  text-align: left;
+  color: #15354d;
+  margin-bottom: 30px;
+}
+.fifth_section .container .wrapper .left p {
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #445766;
+  margin-bottom: 25px;
+}
+.fifth_section .container .wrapper .left .btns_group {
+  padding-top: 15px;
+  justify-content: left;
+  gap: 10px;
+}
+.fifth_section .container .wrapper .left .btns_group .tour_video_btn {
+  width: 247px;
+  height: 56px;
+  background: #86973b;
+  border-radius: 30px;
+  border: none;
+  padding: 0 30px;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  color: #fff;
+}
+.fifth_section .container .wrapper .left .btns_group .subscription_btn {
+  width: 265px;
+  height: 56px;
+  background-color: #ef8322;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  padding: 0 30px;
+}
+.fifth_section .container .wrapper .right {
+  flex-basis: 50%;
+}
+.fifth_section .container .wrapper .right img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
