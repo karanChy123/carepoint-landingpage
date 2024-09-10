@@ -346,3 +346,36 @@ ul {
     }
   }
 }
+
+.sixth_section{
+   
+    .container{
+        border-top:1px solid #AFB3BD ;
+
+        .heading{
+            padding-top: 80px;
+            @extend .flex;
+            justify-content: center;
+            margin-bottom: 40px;
+
+            h2{
+                font-family: Inter Tight;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: center;
+color: #15354D;
+
+            }
+        }
+
+        .wrapper{
+            max-width: 978px;
+            margin: auto;
+            @extend .flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            justify-content: center;
+        }
+    }
+}

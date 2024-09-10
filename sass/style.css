@@ -48,7 +48,7 @@ ul {
   margin: auto;
 }
 
-.flex, .fifth_section .container .wrapper .left .btns_group .tour_video_btn, .fifth_section .container .wrapper .left .btns_group, .fifth_section .container .wrapper, .fouth_section .heading, .third_section .container .wrapper .right .list-items div, .third_section .container .wrapper, .third_section .container .heading, .second_section .container .left .list-items div, .second_section .container, .hero-section .container .hero-text .btns_group .tour_video_btn, .hero-section .container .hero-text .btns_group, .hero-section .container, .topbar .right-section .login_btn, .topbar .right-section .main-menu, .topbar .right-section {
+.flex, .sixth_section .container .wrapper, .sixth_section .container .heading, .fifth_section .container .wrapper .left .btns_group .tour_video_btn, .fifth_section .container .wrapper .left .btns_group, .fifth_section .container .wrapper, .fouth_section .heading, .third_section .container .wrapper .right .list-items div, .third_section .container .wrapper, .third_section .container .heading, .second_section .container .left .list-items div, .second_section .container, .hero-section .container .hero-text .btns_group .tour_video_btn, .hero-section .container .hero-text .btns_group, .hero-section .container, .topbar .right-section .login_btn, .topbar .right-section .main-menu, .topbar .right-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -308,4 +308,28 @@ ul {
 }
 .fifth_section .container .wrapper .right img {
   width: 100%;
+}
+
+.sixth_section .container {
+  border-top: 1px solid #AFB3BD;
+}
+.sixth_section .container .heading {
+  padding-top: 80px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.sixth_section .container .heading h2 {
+  font-family: Inter Tight;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: center;
+  color: #15354D;
+}
+.sixth_section .container .wrapper {
+  max-width: 978px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
